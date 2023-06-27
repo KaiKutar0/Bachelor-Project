@@ -1,10 +1,21 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import {Button, Text, View} from 'react-native';
 
 function App(): JSX.Element {
   return (
-    <View>
-      <Text>Test github</Text>
+    <View
+      style={{
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}>
+      <Text
+        style={{
+          fontSize: 40,
+        }}>
+        Hello World!
+      </Text>
+      <Button title="Tap me!"></Button>
     </View>
   );
 }
